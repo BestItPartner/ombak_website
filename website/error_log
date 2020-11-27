@@ -1,0 +1,30 @@
+[17-Jul-2018 18:00:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/vdyi3ffczq7w/public_html/deleteme.wpfp05.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/vdyi3ffczq7w/public_html/deleteme.wpfp05.php on line 16
+[17-Jul-2018 18:00:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/vdyi3ffczq7w/public_html/deleteme.wptmup.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/vdyi3ffczq7w/public_html/deleteme.wptmup.php on line 16
+[17-Jul-2018 18:00:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_transient() in /home/vdyi3ffczq7w/public_html/deleteme.wpaeqa.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/vdyi3ffczq7w/public_html/deleteme.wpaeqa.php on line 16
+[21-Jul-2018 11:57:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 3
+[21-Jul-2018 11:57:13 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 3
+[21-Jul-2018 11:58:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 3
+[21-Jul-2018 11:58:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 4
+[21-Jul-2018 11:59:32 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 3
+[21-Jul-2018 11:59:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 3
+[21-Jul-2018 12:00:15 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/vdyi3ffczq7w/public_html/wp-content/plugins/pods/components/Pages.php(953) : eval()'d code on line 12
+[21-Jul-2018 12:15:53 UTC] WordPress database error Unknown column 't.title' in 'order clause' for query SELECT
+                
+                DISTINCT
+                `t`.*
+                FROM `wp_posts` AS `t`
+                
+                WHERE ( ( `t`.`post_status` IN ( "publish" ) ) AND ( `t`.`post_type` = "issue" ) )
+                
+                
+                ORDER BY t.title, `t`.`menu_order`, `t`.`post_title`, `t`.`post_date` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, Pods_Pages->template_redirect, pods_content, Pods_Pages::content, eval, Pod->__call, Pods->__call, Pods_Deprecated->findRecords, Pods->find, PodsData->select, pods_query, PodsData::query
+[24-Aug-2018 09:23:14 UTC] WordPress database error Lost connection to MySQL server during query for query SELECT option_value FROM wp_options WHERE option_name = 'limit_login_client_type' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, limit_login_setup, limit_login_setup_options, limit_login_get_option, get_option

@@ -1,0 +1,101 @@
+.col4-1, .col4-2, .col4-3, .col3-1, .col3-2, .col2-1 {
+	float: right;
+	margin-left: 0;
+	margin-right: 3.2%;
+}
+.col.first, .col4-1.first, .col4-2.first, .col4-3.first, .col3-1.first, .col3-2.first, .col2-1.first {
+	margin-right: 0;
+}
+
+#main-nav,
+#main-nav-wrap {
+	right: auto !important;
+	left: 0;
+}
+#menu-icon {
+	float: left;
+}
+#header #searchform {
+	right: auto;
+	left: 0;
+}
+#header #searchform #s {
+	float: left;
+}
+
+.flex-direction-nav,
+.post-nav .next .arrow,
+.post-nav .prev .arrow {
+	direction: ltr;
+}
+.post-nav .prev {
+	text-align: left;
+}
+
+.commentlist .avatar {
+	float: right;
+	margin: 0 0 0 15px;
+}
+.commentlist .reply {
+	right: auto;
+	left: 0;
+}
+.commentlist {
+	padding-left: 0;
+	padding-right: 122px;
+}
+
+.module-testimonial.grid4 .testimonial-post, .module-testimonial.grid3 .testimonial-post, .module-testimonial.grid2 .testimonial-post, .module-testimonial.list-post .testimonial-post, .module-highlight.grid4 .highlight-post, .module-highlight.grid3 .highlight-post, .module-highlight.grid2 .highlight-post, .module-highlight.list-post .highlight-post,
+.module.grid2-thumb .post {
+	text-align: right;
+}
+.module-testimonial .testimonial-post .post-image,
+.module-highlight .highlight-post .post-image {
+	float: right;
+	margin: 0 0 .4em 1.3em;
+}
+.loops-wrapper.grid2-thumb .post-image {
+	float: right;
+	margin: 5px 0 10px 14px;
+}
+.shortcode.team .post-image {
+	float: right;
+	margin: 0 0 5px 20px;
+}
+.loops-wrapper.list-thumb-image .post-image {
+	float: right;
+	margin: 7px 0 10px 16px;
+}
+.module-testimonial .testimonial-post .testimonial-author {
+	text-align: left;
+}
+
+@media (min-width: 601px) {
+	.loops-wrapper.grid4 .post, .loops-wrapper.grid3 .post, .loops-wrapper.grid2 .post {
+		float: right;
+		margin-left: 0;
+		margin-right: 2.5%;
+	}
+	.loops-wrapper.grid4 .post:nth-of-type(4n+1), .loops-wrapper.grid3 .post:nth-of-type(3n+1), .loops-wrapper.grid2 .post:nth-of-type(2n+1), .loops-wrapper.grid2-thumb .post:nth-of-type(2n+1) {
+		margin-right: 0;
+		clear: right;
+	}
+}
+@media (min-width: 1150px) {
+	.loops-wrapper.grid4 .post, .loops-wrapper.grid3 .post, .loops-wrapper.grid2 .post {
+		margin-right: 3.2%;
+	}
+}
+@media (min-width: 761px) {
+	#main-nav li {
+		float: right;
+	}
+	#main-nav ul ul {
+		right: 100%;
+		left: auto;
+	}
+	#main-nav ul a, #main-nav .current_page_item ul a, #main-nav ul .current_page_item a, #main-nav .current-menu-item ul a, #main-nav ul .current-menu-item a {
+		padding-left: 6px;
+		padding-right: 15px;
+	}
+}

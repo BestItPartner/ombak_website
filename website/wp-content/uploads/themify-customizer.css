@@ -1,0 +1,163 @@
+
+/* Themify Custom CSS */
+@font-face {
+	font-family: 'ALGER';
+	src: url('/wp-content/themes/magazine/fonts/alger/ALGER.eot');
+	src: local('ALGER'), url('/wp-content/themes/magazine/fonts/alger/ALGER.woff') format('woff'), url('/wp-content/themes/magazine/fonts/alger/ALGER.ttf') format('truetype');
+}
+.falgera
+{
+	font-family: 'ALGER' !important;
+}
+#site-logo a
+{
+	font-family: 'ALGER' !important;
+	color:#000;
+	font-size:28px;
+}
+.home .page-title {display: none!important;}
+
+.text-center
+{
+text-align:center;	
+}
+.fl-slide-content-wrap
+{
+	float:right;
+	margin:0;
+	padding:10px;
+	
+}
+.fl-slide-content-wrap .fl-slide-content
+{
+	padding:0!important;
+	margin:0!important;
+	color:#000;
+	
+}
+.fl-slide-content-wrap .fl-slide-content *
+{
+	color:#000!important;
+}
+.fl-slide-photo-wrap 
+{
+	float:left;
+}
+.fl-slide-text-left .fl-slide-content-wrap
+{
+	float:right;
+}
+.fl-slide-photo-wrap .fl-slide-photo
+{
+	padding:0!important;
+	margin:10px!important;
+}
+#contentwrap
+{
+	padding-top:2%;
+}
+#headerwrap
+{
+	border-bottom:3px solid #795547;
+}
+.pull-left
+{
+	float:left;
+}
+
+.pull-right
+{
+	float:right;
+}
+.text-left
+{
+	text-align:left;
+}
+.text-right
+{
+	text-align:right;
+}
+.col-md-12
+{
+	width:100%;
+	display:block;
+}
+.row
+{
+	width:100%;
+	display: block;
+    position: relative;
+    overflow: hidden
+}
+.padding-10
+{
+	padding:10px;
+}
+.btn-success
+{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bolder;
+	vertical-align:middle;
+		line-height:30px;
+	background:#069;
+}
+.btn-buy p
+{
+	padding:0;
+	margin:0
+}
+.btn-buy
+{
+	background:#00bfd6;
+	text-align:center;
+	text-decoration: none !important;
+    color: #333;
+    line-height: 110%;
+    padding: .5em 1em;
+    margin: .5em .2em .5em 0;
+    border: solid 1px #aaa;
+    text-decoration:none;
+    background-image: none;
+    vertical-align: middle;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,.1);
+    border-radius: .3em;
+    box-shadow: 0 1px 0 rgba(0,0,0,.05), inset 0 1px 0 rgba(255,255,255,.2), inset 0 -1px 0 rgba(255,255,255,.1);
+    -webkit-transition: background-color .3s, background-color .3s, border .3s, color .3s;
+    -moz-transition: background-color .3s, background-color .3s, border .3s, color .3s;
+    -o-transition: background-color .3s, background-color .3s, border .3s, color .3s;
+    transition: background-color .3s, background-color .3s, border .3s, color .3s;
+}
+.bu-img
+{
+	border:3px solid #00bfd6;
+	border-radius:5px;
+	padding:5px
+	
+}
+.bu-box
+{
+	border-radius:15px;
+	padding:5px;
+	text-align:center;
+	border-top:1px solid #00bfd6;
+}
+.btn-buy .btn-success
+{
+	background:transparent;
+}
+@media screen and (max-width: 992px) {
+.col-md-6
+	{
+		width:100%;
+	}
+}
+@media screen and (min-width: 992px) {
+.col-md-6
+	{
+		width:50%;
+		float:left;
+	}
+}

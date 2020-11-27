@@ -1,0 +1,27 @@
+{
+  "name": "ninja-forms-addon-manager",
+  "description": "A companion to Ninja Forms for remote plugin (add-on) installation.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpninjas/ninja-forms-addon-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpninjas/ninja-forms-addon-manager/issues"
+  },
+  "homepage": "https://github.com/wpninjas/ninja-forms-addon-manager#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-uglify": "^3.0.0"
+  }
+}

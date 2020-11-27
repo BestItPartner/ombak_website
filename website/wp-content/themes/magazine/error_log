@@ -1,0 +1,4 @@
+[22-Sep-2018 03:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/vdyi3ffczq7w/public_html/wp-content/themes/magazine/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vdyi3ffczq7w/public_html/wp-content/themes/magazine/index.php on line 8
